@@ -14,3 +14,8 @@ Feature: pokus
       Given nastavenie pociatocnych podmienok
       When toto je dalsia akcia
       Then dalsie overenie vysledku
+
+      Scenario: Kalkulacka - sucet dvoch cisliel
+        Given Uzivatel ma priradene dve cisla 5 a 8
+        When Uzivatel scita tieto dve cisla
+        Then Uzivatel vidi na kalkulacke vysledok 13
